@@ -12,6 +12,8 @@
 		048591E0200C53B9004E2CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048591DE200C53B9004E2CA7 /* Main.storyboard */; };
 		048591E2200C53B9004E2CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048591E1200C53B9004E2CA7 /* Assets.xcassets */; };
 		048591E5200C53B9004E2CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048591E3200C53B9004E2CA7 /* LaunchScreen.storyboard */; };
+		048591ED200C575B004E2CA7 /* RIghtLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048591EC200C575B004E2CA7 /* RIghtLoginViewController.swift */; };
+		048591EF200C5773004E2CA7 /* WrongLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048591EE200C5773004E2CA7 /* WrongLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		048591E1200C53B9004E2CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048591E4200C53B9004E2CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048591E6200C53B9004E2CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048591EC200C575B004E2CA7 /* RIghtLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIghtLoginViewController.swift; sourceTree = "<group>"; };
+		048591EE200C5773004E2CA7 /* WrongLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				048591DA200C53B9004E2CA7 /* AppDelegate.swift */,
 				048591DC200C53B9004E2CA7 /* ViewController.swift */,
 				048591DE200C53B9004E2CA7 /* Main.storyboard */,
+				048591EC200C575B004E2CA7 /* RIghtLoginViewController.swift */,
+				048591EE200C5773004E2CA7 /* WrongLoginViewController.swift */,
 				048591E1200C53B9004E2CA7 /* Assets.xcassets */,
 				048591E3200C53B9004E2CA7 /* LaunchScreen.storyboard */,
 				048591E6200C53B9004E2CA7 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				048591DD200C53B9004E2CA7 /* ViewController.swift in Sources */,
 				048591DB200C53B9004E2CA7 /* AppDelegate.swift in Sources */,
+				048591EF200C5773004E2CA7 /* WrongLoginViewController.swift in Sources */,
+				048591ED200C575B004E2CA7 /* RIghtLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
